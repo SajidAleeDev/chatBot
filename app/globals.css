@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .textInfo {
+    @apply bg-gray-700/50 p-4 rounded-lg max-w-[300px] zero:text-xs;
+  }
+
+  .ChatRow {
+    @apply rounded-lg px-5 m-2 py-3 text-sm flex items-center justify-center cursor-pointer hover:bg-gray-700/70 space-x-2 text-gray-300 transition-all duration-200 ease-out;
+  }
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #202123;
+}
